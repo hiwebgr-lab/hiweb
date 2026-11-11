@@ -1,0 +1,11 @@
+:root {
+	--wd-primary-color: rgb(203,149,0);
+	--btn-accented-bgcolor: rgb(203,149,0);
+}
+.woodmart-archive-shop:not(.single-product) .main-page-wrapper {
+	background-color: rgb(26,26,26);
+	background-image: none;
+}
+
+
+

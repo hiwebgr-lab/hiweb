@@ -1,0 +1,601 @@
+/* Fonts Pro Admin Styles */
+
+/* Fix menu spacing consistency for Fonts menu */
+#adminmenu li#toplevel_page_fonts-pro {
+    margin-bottom: 0 !important;
+}
+
+#adminmenu li#toplevel_page_fonts-pro .wp-menu-name {
+    padding: 8px 0 !important;
+    line-height: 1.4 !important;
+}
+
+#adminmenu li#toplevel_page_fonts-pro .wp-menu-arrow {
+    margin-top: 0 !important;
+}
+
+/* Ensure consistent spacing with other menu items */
+#adminmenu li#toplevel_page_fonts-pro a.menu-top {
+    padding: 8px 0 !important;
+}
+
+.fonts-pro-dashboard {
+    margin-top: 20px;
+}
+
+.fonts-pro-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-card h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0073aa;
+    margin: 0;
+}
+
+.fonts-pro-quick-actions {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.fonts-pro-quick-actions h2 {
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.action-buttons .button {
+    margin: 0;
+}
+
+.fonts-pro-recent-fonts {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.fonts-pro-recent-fonts h2 {
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+/* Google Fonts Page */
+.fonts-pro-google-fonts {
+    margin-top: 20px;
+}
+
+.google-fonts-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.google-fonts-header svg {
+    height: 40px;
+    width: auto;
+}
+
+.google-fonts-search {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.google-fonts-search input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.google-fonts-preview {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.google-fonts-preview h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.font-preview {
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-preview-info {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.google-fonts-list {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 200px;
+}
+
+.font-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+.font-item:hover {
+    background: #f0f0f0;
+}
+
+.font-info {
+    flex: 1;
+}
+
+.font-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.font-category {
+    color: #666;
+    font-size: 12px;
+}
+
+.font-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.selected-google-fonts {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.added-font-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+.added-font-item:hover {
+    background: #f0f0f0;
+}
+
+.added-font-info {
+    flex: 1;
+}
+
+.added-font-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.added-font-weights {
+    color: #666;
+    font-size: 12px;
+}
+
+.added-font-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Adobe Fonts Page */
+.fonts-pro-adobe-fonts {
+    margin-top: 20px;
+}
+
+.adobe-fonts-setup {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.adobe-fonts-setup h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+}
+
+.adobe-fonts-setup p {
+    margin: 0 0 15px 0;
+    color: #666;
+}
+
+.adobe-fonts-setup input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.adobe-fonts-list {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 200px;
+}
+
+/* Custom Fonts Page */
+.fonts-pro-custom-fonts {
+    margin-top: 20px;
+}
+
+.custom-font-upload {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-font-upload h3 {
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.custom-font-upload .form-table th {
+    width: 150px;
+    padding: 15px 10px 15px 0;
+}
+
+.custom-font-upload .form-table td {
+    padding: 15px 10px;
+}
+
+.custom-font-upload input[type="text"],
+.custom-font-upload input[type="file"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.custom-font-upload .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.custom-fonts-list {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.custom-fonts-list h3 {
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+/* Typography Page */
+.fonts-pro-typography {
+    margin-top: 20px;
+}
+
+.fonts-pro-typography .form-table th {
+    width: 200px;
+    padding: 15px 10px 15px 0;
+}
+
+.fonts-pro-typography .form-table td {
+    padding: 15px 10px;
+}
+
+.fonts-pro-typography input[type="number"],
+.fonts-pro-typography textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.fonts-pro-typography textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Settings Page */
+.fonts-pro-settings .form-table th {
+    width: 200px;
+    padding: 15px 10px 15px 0;
+}
+
+.fonts-pro-settings .form-table td {
+    padding: 15px 10px;
+}
+
+.fonts-pro-settings input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.fonts-pro-settings .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Loading States */
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0073aa;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Notifications */
+#fonts-pro-notifications {
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+.fonts-pro-notice {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border-left: 4px solid;
+}
+
+.fonts-pro-notice.success {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.fonts-pro-notice.error {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.fonts-pro-notice.warning {
+    background: #fff3cd;
+    border-color: #ffc107;
+    color: #856404;
+}
+
+.fonts-pro-notice.info {
+    background: #d1ecf1;
+    border-color: #17a2b8;
+    color: #0c5460;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .fonts-pro-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+    }
+    
+    .action-buttons .button {
+        width: 100%;
+    }
+    
+    .google-fonts-search {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .font-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .font-actions {
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+/* Font Preview */
+.font-preview {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+/* Color Picker */
+.color-picker-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.color-picker {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Font Weight and Style Controls */
+.font-controls {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.font-controls select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #0073aa;
+    transition: width 0.3s ease;
+}
+
+/* Tooltips */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* PRO Labels with Different Colors */
+#adminmenu a[href*="fonts-pro-google"] .wp-menu-name::after {
+    content: " PRO";
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+#adminmenu a[href*="fonts-pro-custom"] .wp-menu-name::after {
+    content: " PRO";
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+#adminmenu a[href*="fonts-pro-settings"] .wp-menu-name::after {
+    content: " PRO";
+    color: #f39c12;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 5px;
+}

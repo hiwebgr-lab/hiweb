@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /imunify-bot-check
+
+Sitemap: https://www.epavlisresort.gr/sitemap.xml
+Sitemap: https://www.epavlisresort.gr/sitemap.rss

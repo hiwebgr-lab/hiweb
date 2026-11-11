@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was δυναμικά generated on 10 Νοεμβρίου 2026 at 21:21 by All in One SEO v5.0.5 - the original SEO plugin for WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc><![CDATA[/post-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2025-08-31T15:23:08+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[/page-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2026-07-02T07:33:18+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[/form-maker-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2024-06-24T07:45:32+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[/category-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2025-08-31T15:23:08+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[/cms_block_cat-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2026-07-02T07:33:55+00:00]]></lastmod>
+	</sitemap>
+</sitemapindex>
